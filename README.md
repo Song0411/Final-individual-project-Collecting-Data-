@@ -13,10 +13,10 @@ The lyrics were manually collected through a process of copying and pasting from
 
 ## Cleaning and Preprocessing
 The collected lyrics underwent several preprocessing steps:  
-🎵 Removal of special characters and extraneous whitespace. 
-🎵 Conversion of all text to lowercase for uniformity. 
-🎵 Tokenization, lemmatization, and parts-of-speech tagging using spaCy for linguistic analysis. 
-🎵 Sentiment analysis to determine the emotional tone of the lyrics. 
+🎵 Removal of special characters and extraneous whitespace.  
+🎵 Conversion of all text to lowercase for uniformity.  
+🎵 Tokenization, lemmatization, and parts-of-speech tagging using spaCy for linguistic analysis.  
+🎵 Sentiment analysis to determine the emotional tone of the lyrics.  
 
 ## Annotations and Tools
 The dataset includes several annotations:  
@@ -31,14 +31,14 @@ Subjectivity: Sentiment subjectivity of the lyrics.
 Tools used for these annotations include Python's spaCy library for NLP tasks, TextBlob for sentiment analysis, and pandas for data manipulation.
 
 ## Dataset Format and Column Description
-The dataset is available in CSV format with the following columns: 
-🎵 Title: Name of the song.
-🎵 Cleaned_Lyrics: Lyrics after preprocessing.
-🎵 Tokens: Tokenized lyrics.
-🎵 Lemmas: Lemmatized lyrics.
-🎵 POS: Parts-of-speech tags for the lyrics.
-🎵 Polarity: Sentiment polarity score.
-🎵 Subjectivity: Sentiment subjectivity score.
+The dataset is available in CSV format with the following columns:  
+🎵 Title: Name of the song.  
+🎵 Cleaned_Lyrics: Lyrics after preprocessing.  
+🎵 Tokens: Tokenized lyrics.  
+🎵 Lemmas: Lemmatized lyrics.  
+🎵 POS: Parts-of-speech tags for the lyrics.  
+🎵 Polarity: Sentiment polarity score.  
+🎵 Subjectivity: Sentiment subjectivity score.  
 
 ## Copyright Notice
 This dataset is intended for academic and research purposes only. All lyrics have been processed and do not contain the original text to comply with copyright laws. Users of this dataset are advised to respect copyright rules and regulations.
